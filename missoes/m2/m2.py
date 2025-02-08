@@ -1,8 +1,5 @@
-from ..interface.loading import loading
-from ..interface.menu import menu
-from ..utils.encerrar_missao import encerrar_missao
-from ..utils.esperar import esperar
-from ..utils.limpar_terminal import limpar
+from ..interface import loading, menu
+from ..utils import encerrar_missao, esperar, limpar
 
 
 def verificar_idade(idade):

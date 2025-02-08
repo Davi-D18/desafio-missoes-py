@@ -2,8 +2,7 @@ from missoes.m1.m1 import executar_m1
 from missoes.m2.m2 import executar_m2
 from missoes.m3.m3 import executar_m3
 from missoes.m4.m4 import executar_m4
-from missoes.utils.esperar import esperar
-from missoes.utils.limpar_terminal import limpar
+from missoes.utils import esperar, limpar
 
 missoes = {
     "1": executar_m1,

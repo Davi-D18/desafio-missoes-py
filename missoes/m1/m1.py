@@ -1,7 +1,5 @@
-from ..interface.loading import loading
-from ..interface.menu import menu
-from ..utils.encerrar_missao import encerrar_missao
-from ..utils.limpar_terminal import limpar
+from ..interface import loading, menu
+from ..utils import encerrar_missao, limpar
 
 
 def verificar_aprovacao(nota):

@@ -1,7 +1,8 @@
-from missoes.interface.menu import menu
-from missoes.utils.limpar_terminal import limpar
+from missoes.interface import menu
+from missoes.utils import limpar
 from missoes_manager import executar_missao, listar_missoes
 
+limpar()
 menu("Bem-vindo ao Gerenciador de Missões!")
 
 while True:
