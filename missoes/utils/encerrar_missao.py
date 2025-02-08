@@ -2,6 +2,7 @@ from .esperar import esperar
 
 
 def encerrar_missao():
+  print("")
   decisao = input("Deseja encerrar esta missão? (s/n) ").strip().lower()
       
   if decisao != "n":

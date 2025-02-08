@@ -1,6 +1,8 @@
 import sys
 import time
 
+from ..utils import esperar
+
 
 def loading(mensagem="Carregando", tempo=3):
     """
@@ -21,3 +23,5 @@ def loading(mensagem="Carregando", tempo=3):
     # Limpa a linha anterior antes de exibir "Concluído"
     sys.stdout.write("\r" + " " * (len(mensagem) + 5) + "\r")  
     print("✅ Concluído!")
+    print("")
+    esperar(1)
