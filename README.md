@@ -53,8 +53,8 @@ O projeto está organizado da seguinte forma:
 │   │   ├── menu.py      # Exibe um menu no terminal
 │   │   ├── loading.py   # Simula um loading durante a execução
 │   │
-│   ├── m1/ - m4/        # Módulos de cada missão
-│   │   ├── m1.py - m4.py # Código das missões
+│   ├── m1/ - m10/        # Módulos de cada missão
+│   │   ├── m1.py - m10.py # Código das missões
 │   │
 │   ├── utils/           # Funções auxiliares para o programa
 │   │   ├── __init__.py
