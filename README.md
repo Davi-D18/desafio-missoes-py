@@ -70,6 +70,7 @@ O projeto está organizado da seguinte forma:
 - **`interface/`**: Contém funções para interação visual no terminal, como menu e loading.
 - **`utils/`**: Funções auxiliares para o funcionamento do programa, como limpar o terminal e aguardar alguns segundos.
 - **`m1/ - m10/`**: Cada pasta representa uma missão específica, contendo sua implementação em um arquivo separado.
+   - Obs: Algumas missões podem ter mais de 1 arquivo, é apenas para organização, separando funções
 - **`missoes_manager.py`**: Arquivo responsável por executar as missões de acordo com a escolha do usuário.
 - **`main.py`**: Arquivo principal que gerencia a interação do usuário com o sistema.
 - **`__init__.py`**: O arquivo __init__.py indica ao Python que o diretório deve ser tratado como um pacote, facilitando importações
