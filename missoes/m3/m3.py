@@ -1,6 +1,8 @@
 from ..interface import loading, menu
 from ..utils import encerrar_missao, esperar, limpar
 
+Error = False
+
 mensagens = {
   "A": "Parabéns, você tirou A!",
   "B": "Muito bem, você tirou B.",
@@ -10,7 +12,10 @@ mensagens = {
 }
 
 def verificar_nota(nota):
+  global Error
+
   if (nota > 100):
+    Error = True
     return "Nota inválida, tente novamente"
   elif (nota >= 90 and nota <= 100):
     return mensagens["A"]
@@ -25,15 +30,17 @@ def verificar_nota(nota):
   
 
 def executar_m3():
-  menu("Missão 3: Recuperando o Sistema de Notas")
+  global Error
+  menu("Missão 3: Recuperando o Sistema de Notas", "Classifica notas de alunos.")
 
   while True:
     limpar()
-    nota_aluno = int(input("Informe sua nota: "))
 
-    if not isinstance(nota_aluno, int):
+    try:
+      nota_aluno = int(input("Informe sua nota entre 0 e 100: "))
+    except ValueError:
       print("Informe um número válido")
-      esperar(2)
+      esperar(1)
       continue
 
     loading("Calculando nota")
@@ -41,6 +48,10 @@ def executar_m3():
     resultado = verificar_nota(nota_aluno)
     print(resultado.title())
     esperar(1)
+
+    if (Error):
+      Error = False
+      continue
 
     decisao = encerrar_missao()
     if (decisao):
