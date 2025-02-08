@@ -31,7 +31,8 @@ def verificar_nota(nota):
 
 def executar_m3():
   global Error
-  menu("Missão 3: Recuperando o Sistema de Notas", "Classifica notas de alunos.")
+  menu("Missão 3: Recuperando o Sistema de Notas 📊",
+       "Classifica notas de alunos.")
 
   while True:
     limpar()

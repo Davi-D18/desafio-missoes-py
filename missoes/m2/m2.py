@@ -12,7 +12,7 @@ def verificar_idade(idade):
     esperar(2)
 
 def executar_m2():
-  menu("Missão 2: Sistema Eleitoral Secretos",
+  menu("Missão 2: O Sistema Eleitoral Secreto 📝",
        "Verifica se um usuário pode votar.", 3)
 
   while True:

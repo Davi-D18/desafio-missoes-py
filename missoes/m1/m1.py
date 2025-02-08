@@ -17,7 +17,7 @@ def verificar_aprovacao(nota):
 
 def executar_m1():
     global Error
-    menu("Missão 1: Restaurando as Regras Escolares",
+    menu("Missão 1: Restaurando as Regras Escolares 📝",
          "Verifica se um aluno foi aprovado ou não.", 3)
     
     while True:

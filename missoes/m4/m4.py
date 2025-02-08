@@ -6,7 +6,7 @@ def somar(numero1, numero2):
   return numero1 + numero2
 
 def executar_m4():
-  menu("Missão 4: Restaurando a Identificação de Números",
+  menu("Missão 4: Restaurando a Identificação de Números ⚖️",
        "soma dois números fornecidos.")
 
   while True:
