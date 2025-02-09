@@ -83,14 +83,10 @@ O projeto está organizado da seguinte forma:
 
 ## 🔧 Pré-requisitos
 
-Certifique-se de ter os seguintes itens instalados e configurados em seu ambiente:
-
-- **Python 3.10 ou superior**: Este projeto utiliza o recurso `match-case`, que está disponível apenas a partir do Python 3.10. Verifique a versão do Python instalada executando:
+- **Python 3.10 ou superior**: Algumas missões utiliza o recurso `match-case`(que seria algo similar ao switch-case do JavaScript) que está disponível apenas a partir do Python 3.10. Verifique a versão do Python instalada executando:
    ```bash
    python --version
    ```
-
-Caso não queira instalar a versão 3.10 ou superior, evite rodar especificamente as missões 7 e 8 (m7 e m8)
 
 ## 🛠 Como Executar
 1. Clone este repositório:
