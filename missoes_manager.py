@@ -6,6 +6,8 @@ from missoes.m5.m5 import executar_m5
 from missoes.m6.m6 import executar_m6
 from missoes.m7.m7 import executar_m7
 from missoes.m8.m8 import executar_m8
+from missoes.m9.m9 import executar_m9
+from missoes.m10.m10 import executar_m10
 from missoes.utils import esperar, limpar
 
 missoes = {
@@ -17,6 +19,8 @@ missoes = {
     "6": executar_m6,
     "7": executar_m7,
     "8": executar_m8,
+    "9": executar_m9,
+    "10": executar_m10
 }
 
 def listar_missoes():
