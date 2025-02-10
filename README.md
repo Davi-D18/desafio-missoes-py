@@ -63,7 +63,7 @@ O projeto está organizado da seguinte forma:
 │   │   ├── limpar_terminal.py   # Função para limpar o terminal
 │
 ├── main.py              # Arquivo principal que gerencia o fluxo do programa
-├── missoes_manager.py   # Gerenciador que executa as missões
+├── missoes_manager.py   # Gerenciador que executa e lista as missões
 ```
 
 ### 📌 Detalhes dos Módulos
