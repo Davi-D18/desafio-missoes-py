@@ -13,6 +13,8 @@ def executar_m6():
       esperar(1)
       print(i)
 
+    esperar(2)
+
     decisao = encerrar_missao()
     if (decisao):
       break

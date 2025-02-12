@@ -21,6 +21,8 @@ def executar_m2():
       loading("Verificando sua idade", 2)
 
       verificar_idade(idade_usuario)
+
+      esperar(2)
       
       decisao = encerrar_missao()
 
